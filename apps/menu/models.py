@@ -15,6 +15,7 @@ class producto(models.Model):
     cantidad_de_venta = models.CharField(max_length=50, null=False, blank=False)
     marca = models.CharField(max_length=50, null=False, blank=False)
     precio = models.CharField(max_length=50, null=False, blank=False)
+    image = models.URLField(max_length=800, default='https://i.postimg.cc/SxTpy4DR/nodisponible.png', blank=False, null=False)
     fk_tipo_de_dulce = models.ForeignKey(tipo_de_dulce, null=False, blank=False, on_delete=models.CASCADE)
     fk_disponible = models.ForeignKey(disponible, null=False, blank=False, on_delete=models.CASCADE)
 
