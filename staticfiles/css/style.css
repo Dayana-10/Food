@@ -274,7 +274,7 @@ a:focus {
   left: 0;
   width: 75%;
   height: 100%;
-  background-image: url(../images/slider-bg1.png);
+  background-image: url(https://i.postimg.cc/pX62zGPG/imagenfondo.png);
   background-size: 100% 100%;
   z-index: 2;
 }
@@ -286,7 +286,7 @@ a:focus {
   right: 45px;
   width: 550px;
   height: 550px;
-  background-image: url(../images/slider-bg2.png);
+  background-image: url(https://i.postimg.cc/LXV5fSmY/fondo1.jpg);
   background-size: cover;
   background-position: bottom right;
   z-index: 1;
@@ -644,7 +644,7 @@ a:focus {
 }
 
 .client_section .img-box img {
-  width: 100%;
+  width: 75%;
 }
 
 .client_section .client_container {
@@ -668,7 +668,7 @@ a:focus {
 
 .client_section .client_container .box .img-box {
   position: relative;
-  width: 175px;
+  width: 75px;
   min-width: 175px;
   padding: 0 0 20px 20px;
   margin-right: 25px;
@@ -684,8 +684,8 @@ a:focus {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 75%;
-  height: 75%;
+  width: 55%;
+  height: 55%;
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.1);
@@ -966,9 +966,9 @@ a:focus {
 }
 
 .info_section .info_insta .insta_box .img-box {
-  width: 65px;
+  width: 45px;
   min-width: 65px;
-  height: 65px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -978,7 +978,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffffff;
+  background-color: #F7FC81;
   margin-right: 10px;
 }
 
