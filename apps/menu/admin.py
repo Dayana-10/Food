@@ -29,8 +29,9 @@ class resourceproducto(resources.ModelResource):
 
 class Adminproducto(ImportExportModelAdmin, admin.ModelAdmin):
     search_fields = ['nombre']
-    list_display = ['cantidad_de_venta','marca','precio']
+    list_display = ['cantidad_de_venta','marca','precio','fk_tipo_de_dulce','fk_disponible']
     resource_class = resourceproducto
+
 admin.site.register(producto,Adminproducto)
 
 class resourceventa(resources.ModelResource):

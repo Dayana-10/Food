@@ -157,7 +157,7 @@
                       </h1>
                       <a href="#">
                         <span>
-                          Read More
+
                         </span>
                         <img src="{%static 'images/white-arrow.png'%}" alt="">
                       </a>
@@ -203,7 +203,7 @@
                 Somo una empresa dedicada a la venta de dulce, tenemos una gran variedad de nuestros productos disponibles, contamos con pedidos por mayoreo o individula visitanos y consulta nustros dulces que estan a la venta . </p>
               <a href="#">
                 <span>
-                  Read More
+
                 </span>
                 <img src="{%static 'images/color-arrow.png'%}" alt="">
               </a>
@@ -239,7 +239,7 @@
           {%for arrayproducto in allproducto%}
           <div class="box">
             <div class="img-box">
-              <img src="{{arrayproducto.image}}" width="324" height="237">
+              <img src="{{arrayproducto.image}}"width="600" height="500">
             </div>
             <div class="detail-box">
               <h6>
@@ -257,7 +257,7 @@
           {%else%}
           <div class="box">
             <div class="img-box">
-              <img src="https://i.postimg.cc/SxTpy4DR/nodisponible.png" width="324" height="237">
+              <img src="https://i.postimg.cc/1RG5DNFT/no-disponible.png" width="600" height="650">
             </div>
             <div class="detail-box">
               <h6>
@@ -267,7 +267,7 @@
                 Q. --.--
               </h5>
               <a href="">
-                Nodisponible
+                No disponible
               </a>
             </div>
           </div>
@@ -291,18 +291,18 @@
               del 5% de descuento <br>
              Aprovéchalo!
             </h3>
-            <a href="">
-              Buy Now
+            <a href="{%url 'menu:about'%}">
+                Click Aqui
             </a>
           </div>
           <div class="img-box">
-            <img src="https://i.postimg.cc/dtc7Y31v/bolsas.png" alt="">
+            <img src="https://i.postimg.cc/dtc7Y31v/bolsas.png" width="600" height="500">
           </div>
         </div>
         <div class="btn-box">
-          <a href="">
+          <a href="{%url 'menu:contact'%}">
             <span>
-              See More
+              Contactanos
             </span>
             <img src="{%static 'images/color-arrow.png'%}" alt="">
           </a>
@@ -334,7 +334,7 @@
                   <div class="carousel-item active">
                     <div class="box">
                       <div class="img-box">
-                        <img src="{%static 'images/client-img.jpg'%}" alt="">
+                        <img src="{%static 'images/client-img.jpg'%}" width="400" height="200">
                       </div>
                       <div class="detail-box">
                         <h4>
@@ -350,7 +350,7 @@
                   <div class="carousel-item">
                     <div class="box">
                       <div class="img-box">
-                        <img src="{%static 'images/client-img.jpg'%}" alt="">
+                        <img src="https://i.postimg.cc/zv5z4dnW/persona1.jpg" width="400" height="200">
                       </div>
                       <div class="detail-box">
                         <h4>
@@ -366,7 +366,7 @@
                   <div class="carousel-item">
                     <div class="box">
                       <div class="img-box">
-                        <img src="{%static 'images/client-img.jpg'%}" alt="">
+                        <img src="https://i.postimg.cc/ZnVS2JYt/persona2.jpg" width="400" height="200">
                       </div>
                       <div class="detail-box">
                         <h4>
