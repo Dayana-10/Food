@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color:#96D9C4;
   overflow-x: hidden;
 }
 
@@ -258,7 +258,7 @@ a:focus {
   z-index: 2;
   background-size: cover;
   background-position: top;
-  color: #ffffff;
+  color: #E39DC4;
 }
 
 .slider_section .row {
@@ -272,9 +272,9 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  width: 75%;
+  width: 100%;
   height: 100%;
-  background-image: url(../images/slider-bg1.png);
+  background-image: url(https://i.postimg.cc/rp5Qnv09/fond.jpg);
   background-size: 100% 100%;
   z-index: 2;
 }
@@ -285,15 +285,15 @@ a:focus {
   top: 25px;
   right: 45px;
   width: 550px;
-  height: 550px;
+  height: 100%px;
   background-image: url(../images/slider-bg2.png);
   background-size: cover;
-  background-position: bottom right;
+  background-position: bottom left;
   z-index: 1;
 }
 
 .slider_section .detail_box {
-  color: #ffffff;
+  color: #1A0C24;
 }
 
 .slider_section .detail_box h1 {
@@ -361,7 +361,7 @@ a:focus {
   width: 55px;
   height: 55px;
   font-size: 12px;
-  background-color: #ffffff;
+  background-color: #E39DC4;
   opacity: 1;
   color: #a04120;
   margin: 2.5px 0;
@@ -369,7 +369,7 @@ a:focus {
 
 .slider_section .carousel_btn-box .carousel-control-prev:hover,
 .slider_section .carousel_btn-box .carousel-control-next:hover {
-  color: #46200b;
+  color: #9DE3B1;
 }
 
 .about_section .detail-box p {
@@ -648,11 +648,11 @@ a:focus {
 }
 
 .client_section .client_container {
-  background-image: url(../images/client-bg.png);
-  background-size: 90% 100%;
+  background-image: url(https://i.postimg.cc/rp5Qnv09/fond.jpg);
+  background-size: 90% 90%;
   background-position: bottom right;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #000000;
   padding: 75px 0 175px 0;
 }
 
@@ -668,7 +668,8 @@ a:focus {
 
 .client_section .client_container .box .img-box {
   position: relative;
-  width: 175px;
+  height= 550;
+  width= 625px;
   min-width: 175px;
   padding: 0 0 20px 20px;
   margin-right: 25px;
@@ -684,15 +685,15 @@ a:focus {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 75%;
-  height: 75%;
+  width: 100%;
+  height: 100%;
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.1);
 }
 
 .client_section .client_container .box .detail-box {
-  margin-top: 45px;
+  margin-top: 60px;
 }
 
 .client_section .client_container .box .detail-box h4 {
@@ -700,7 +701,7 @@ a:focus {
 }
 
 .client_section .client_container .box .detail-box p {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 25px;
 }
 
@@ -966,9 +967,9 @@ a:focus {
 }
 
 .info_section .info_insta .insta_box .img-box {
-  width: 65px;
-  min-width: 65px;
-  height: 65px;
+  width: 600px;
+  min-width: 85px;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -978,16 +979,17 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffffff;
+  background-color: #05C9ED;
   margin-right: 10px;
 }
 
 .info_section .info_insta .insta_box .img-box img {
-  width: 45px;
+  width: 450px;
+  height: 450px;
 }
 
 .info_section .info_insta .insta_box p {
-  margin: 0;
+  margin: 2;
 }
 
 .info_section .info_insta .insta_box:not(:nth-last-child(1)) {
