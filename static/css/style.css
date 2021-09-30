@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color:#96D9C4;
+  background-color:#98CEFA;
   overflow-x: hidden;
 }
 
@@ -270,11 +270,11 @@ a:focus {
 .slider_section:before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 0%;
   left: 0;
-  width: 100%;
+  width: 85%;
   height: 100%;
-  background-image: url(https://i.postimg.cc/rp5Qnv09/fond.jpg);
+  background-image: url(https://i.postimg.cc/rFQdQFfs/Dulces-t-picos-de-Guatemala.jpg);
   background-size: 100% 100%;
   z-index: 2;
 }
@@ -286,14 +286,14 @@ a:focus {
   right: 45px;
   width: 550px;
   height: 100%px;
-  background-image: url(../images/slider-bg2.png);
+  background-image: url();
   background-size: cover;
   background-position: bottom left;
   z-index: 1;
 }
 
 .slider_section .detail_box {
-  color: #1A0C24;
+  color: #D4F0FE;
 }
 
 .slider_section .detail_box h1 {
@@ -363,13 +363,13 @@ a:focus {
   font-size: 12px;
   background-color: #E39DC4;
   opacity: 1;
-  color: #a04120;
+  color: #F5F314;
   margin: 2.5px 0;
 }
 
 .slider_section .carousel_btn-box .carousel-control-prev:hover,
 .slider_section .carousel_btn-box .carousel-control-next:hover {
-  color: #9DE3B1;
+  color: #A5F514;
 }
 
 .about_section .detail-box p {
@@ -454,8 +454,8 @@ a:focus {
 
 .chocolate_section .box .detail-box {
   width: 100%;
-  background-color: #46200b;
-  color: #ffffff;
+  background-color: #FADD6B;
+  color: #000000;
   padding: 15px;
   margin-top: 10px;
   opacity: 0;
@@ -478,7 +478,7 @@ a:focus {
 }
 
 .chocolate_section .box .detail-box a {
-  color: #ffffff;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -648,11 +648,11 @@ a:focus {
 }
 
 .client_section .client_container {
-  background-image: url(https://i.postimg.cc/rp5Qnv09/fond.jpg);
-  background-size: 90% 90%;
+  background-image: url(https://i.postimg.cc/SK9c2kYm/opinion.jpg);
+  background-size: 75% 90%;
   background-position: bottom right;
   background-repeat: no-repeat;
-  color: #000000;
+  color: #83ECF5;
   padding: 75px 0 175px 0;
 }
 
@@ -804,7 +804,7 @@ a:focus {
   border: none;
   display: inline-block;
   padding: 12px 35px;
-  background-color: #46200b;
+  background-color: #7478F5;
   color: #ffffff;
   border-radius: 0;
   border: 1px solid #46200b;
@@ -817,7 +817,7 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #46200b;
+  color: #D680C6;
 }
 
 .contact_section .map_container {
@@ -873,19 +873,19 @@ a:focus {
 }
 
 .info_section .info_form form input::-webkit-input-placeholder {
-  color: #9c9c9c;
+  color: #FC66FF;
 }
 
 .info_section .info_form form input:-ms-input-placeholder {
-  color: #9c9c9c;
+  color: #FC66FF;
 }
 
 .info_section .info_form form input::-ms-input-placeholder {
-  color: #9c9c9c;
+  color: #FC66FF;
 }
 
 .info_section .info_form form input::placeholder {
-  color: #9c9c9c;
+  color: #FC66FF;
 }
 
 .info_section .info_form form button {
